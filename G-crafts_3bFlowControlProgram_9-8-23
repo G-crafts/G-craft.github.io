@@ -1,0 +1,19 @@
+for (int i = 1; i <= 100; i++) {
+    System.out.println(i);
+}
+package com.nullbeans.basics; 
+public class Main {
+public static void main(String[] args) {
+int i = 1; i <= 100; i++;
+isEvenNumber(userInput);
+}
+public static boolean isEvenNumber(int i = 1; i <= 100; i++){
+if(userInput%2 == 0){
+System.out.println("Input is an even number");
+return true;
+}else {
+System.out.println("Input is an odd number");
+return false;
+}
+}
+}
